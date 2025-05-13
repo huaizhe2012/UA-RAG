@@ -1,0 +1,14 @@
+{
+    "model_name_or_path": "meta-llama/Llama-2-13b-chat",
+    "method": "non-retrieval",
+    "dataset": "squad",
+    "data_path": "../data/squad",
+    "fewshot": 6,
+    "sample": 1000,
+    "shuffle": false,
+    "generate_max_length": 64,
+    "query_formulation": "direct",
+    "output_dir": "../result/llama2_13b_chat_squad",
+    "es_index_name": "wiki",
+    "use_counter": true
+}
