@@ -1,0 +1,21 @@
+{
+    "model_name_or_path": "meta-llama/Llama-2-7b-chat",
+    "method": "act",
+    "dataset": "strategyqa",
+    "data_path": "../data/strategyqa",
+    "fewshot": 6,
+    "sample": 1000,
+    "shuffle": false,
+    "generate_max_length": 64,
+    "query_formulation": "real_words",
+    "retrieve_keep_top_k": 25,
+    "output_dir": "../result/llama2_7b_chat_strategyqa",
+    "retriever": "BM25",
+    "es_index_name": "wiki",
+    "retrieve_topk": 3,
+    "hallucination_threshold": 1.4,
+    "check_real_words": true,
+    "use_counter": true,
+    "retrieve_num": 10,
+    "doc_ratio": 0.5
+}
