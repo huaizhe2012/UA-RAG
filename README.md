@@ -83,5 +83,4 @@ python evaluate.py --dir path_to_folder(result/2wikimultihopqa_llama2_13b/fold)
 ```
 ## Acknowledgment
 
-This project is a modified version of [DRAGIN](https://github.com/oneal2000/DRAGIN).  
-Modifications were made under the terms of the Apache License 2.0.
+This project builds upon the foundation of DRAGIN, with enhancements and adaptations implemented in accordance with the Apache License 2.0.
